@@ -1,0 +1,115 @@
+.detailImage{
+    max-height: 500px;
+    align-self: start;
+}
+.infoColumn {
+    text-align: left;
+}
+
+.infoColumn h3 {
+    font-family: 'Roboto';
+    font-size: 2.618rem;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.descriptionTitle {
+    font-family: 'Roboto';
+    font-size: 1.618rem;
+    font-weight: 400;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.descriptionText {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    
+}
+
+.detailPriceTitle {
+	font-family: 'Roboto';
+	font-size: 1.618rem;
+	font-weight: 400;
+	
+}
+
+.detailPriceText {
+	font-family: 'Roboto';
+	font-size: 1rem;
+	font-weight: 300;
+	
+}
+
+.cardDetailScreen {   
+        
+        text-decoration: none;
+        padding: 35px 5px;
+        width: 330px;
+        height: 250px;
+        margin: 20px;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+        filter: 
+            drop-shadow(6px 6px 7px #ececec)
+            drop-shadow(3px 3px 1px #7C7C7C);
+
+}
+
+#disabledButton {
+    opacity: 0;
+   
+}
+
+.detailScreenContainer {
+    opacity: 1;
+	width: 100%;
+	overflow: hidden;
+	animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+  }
+
+#addToCartButtonDetail {
+    opacity: 1;
+    font-family: 'Roboto';
+    background-color: #EC603A;
+    color:white;
+    border:none;
+    transition: background-color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+    transition: border 0.5s ease-in-out;
+    border: none;
+    width: 250px;
+    align-self: center;
+    height: auto;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0px 35px ;
+    margin-top: 15px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.cardDetailScreen:hover #addToCartButtonDetail {
+    opacity: 1;
+    background-color: white;
+    color: #EC603A;
+    border: 1px solid #EC603A;
+    transition: .5s ease-in-out;
+}
+
+/* .cardDetailScreen:hover {
+    transform: scale(1.03);
+    transition: .5s ease-in-out;
+    overflow: hidden;
+} */

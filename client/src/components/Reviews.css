@@ -1,0 +1,21 @@
+.customer {
+	font-weight: bold;
+	margin: auto;
+	font-size: 120%;
+}
+
+.stars {
+	font-weight: bold;
+	margin: auto;
+	size: 150%;
+}
+
+span {
+	font-weight: bold;
+}
+.reviewTitle {
+	margin-top: 50px;
+	font-family: 'Roboto';
+	font-size: 1.618rem;
+	font-weight: 400;
+}

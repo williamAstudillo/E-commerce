@@ -1,0 +1,12 @@
+.searchResultsTitle {
+    padding: 50px 0px;
+    font-family: 'Roboto';
+    font-size: 2.618rem;
+    background: rgb(65,65,92);
+    background: radial-gradient(circle, rgba(65,65,92,1) 0%, rgba(29,29,46,1) 100%);
+  	color: white;
+}
+
+.searchLayout {
+    padding: 50px 100px;
+}

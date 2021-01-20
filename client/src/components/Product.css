@@ -1,0 +1,140 @@
+.nodeco {
+    border:none;
+    outline:none;
+    text-decoration:none;
+    color:inherit;
+    -webkit-tap-highlight-color: white;
+  }
+
+.card {
+    display: none;
+    text-decoration: none;
+    width: 330px;
+    height: 450px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    filter: 
+        drop-shadow(6px 6px 7px #ececec)
+        drop-shadow(3px 3px 1px #7C7C7C);
+}
+
+
+.card img {
+    height: 230px;
+    border: none;
+    padding: 50px 25px 0px 25px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: .2s ease-in-out;
+    overflow: hidden;
+}
+
+.card p {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+    color:  #1D1D2E;
+    padding: 0px 25px 0px 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+    text-decoration:none;
+}
+
+.card h4 {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    color: #878787;
+    text-align: left;
+    padding: 0px 25px;
+    margin: 5px 0px;
+    text-decoration: none;
+    
+}
+
+.card h2 {
+    color: #EC603A;
+    font-family: 'Roboto';
+    font-size: 1.618rem;
+    font-weight: 400;
+    text-align: left;
+    padding: 0px 25px;
+    text-decoration:none;
+    
+}
+
+.card h3 {
+    font-family: 'Roboto';
+    font-size: 1.618rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #3C3C3B;
+    text-align: left;
+    padding: 10px 25px 0px 25px;
+    margin: 20px 0px 5px 0px;
+    text-decoration:none;
+}
+
+
+#addToCartButton {
+    opacity: 0;
+    font-family: 'Roboto';
+    background-color: white;
+    color:#EC603A;
+    transition: opacity 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    border: none;
+    width: 300px;
+    align-self: center;
+    height: auto;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px ;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+
+.card:hover #addToCartButton {
+    opacity: 1;
+    background-color: #EC603A;
+    color: white;
+}
+
+stars {
+    padding: 0px 25px;
+    justify-self: self-start;
+    text-align: left;
+}
+
+#disabledButton {
+    opacity: 1;
+    font-family: 'Roboto';
+    background-color: white;
+    color:#EC603A;
+    border: none;
+    width: 300px;
+    align-self: center;
+    height: auto;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px ;
+    font-size: 1rem;
+    text-transform: uppercase;
+   
+}
+
+#inStockButton {
+    opacity: 1;
+}

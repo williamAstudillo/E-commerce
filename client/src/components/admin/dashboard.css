@@ -1,0 +1,9 @@
+.dashboardScreen {
+ width: 50%;
+ height: auto;
+ display: flex;
+ flex-direction: row;   
+}
+.dashboardContent {
+    height: auto;
+}

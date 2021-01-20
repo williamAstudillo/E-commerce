@@ -1,0 +1,14 @@
+div span i {
+	color: #f8e825;
+	margin: auto;
+}
+
+.amountReviews {
+	font-family: 'Roboto';
+	font-size: 1rem;
+	font-weight: 700;
+}
+.starContainer {
+	padding-bottom: 30px;
+}
+

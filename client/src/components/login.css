@@ -1,0 +1,185 @@
+.backgroundLogin {
+	background-image: url('./images/back4low.jpg');
+	height: auto;
+	animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+  }
+
+
+.title {
+	padding-top: 50px;
+	font-family: 'Roboto';
+	color: white;
+	font-size: 2.618rem;
+	font-weight: bold;
+	margin: 10px 0 30px 0;
+	padding-bottom: 20px;
+}
+
+.loginContainer {
+	width: 500px;
+	margin: 0px auto 20px auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	background-color: #1d1d2ec7;
+	border-radius: 10px;
+}
+
+.labelEmailLogin {
+	color: white;
+	margin: 5px 55px;
+	align-self: flex-start;
+	font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 300;
+	
+}
+
+.inputEmailLogin {
+	background: transparent;
+	/* background: rgba(255,255,255,0.2); */
+	padding-left: 15px;
+	border: none;	
+	align-self: center;	
+	width: 350px;
+	height: 35px;
+	color: white;
+	-webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+	box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+	font-family: 'Roboto';
+	border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.labelPasswordLogin {
+	color: white;
+	margin: 5px 55px;
+	align-self: flex-start;
+	font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 300;
+	
+}
+
+.inputPasswordLogin {
+	background: transparent;
+	align-self: center;
+	padding-left: 15px;
+	/* background: rgba(255,255,255,0.2) */;
+	width: 350px;
+	height: 35px;
+	border: none;
+	outline: none;
+	color: white;
+	font-family: 'Roboto';
+	font-size: 1rem;
+	border-radius: 15px;
+    font-weight: 300;
+	-webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+	box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+}
+
+.privacyDisclaimer {
+	font-size: 0.618rem;
+	color: white;
+	margin: 10px;
+}
+
+
+/* .loginContainer {
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0,0,0,0.5);
+} */
+
+
+.buttonContainer {
+	width: 500px;
+	margin: 0 auto;;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+#login {
+	background: #EF781E;
+	border-radius: 15px;
+	border: none;
+	margin: 10px;
+	align-self: center;
+	padding: 0 auto;
+	color: white;
+	width: 350px;
+	height: 33px;
+	-webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+	box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+	transition: .5s ease;
+}
+
+#login:hover{
+	transform: scale(1.03);
+}
+
+#googleBtn {
+	transition: .5s ease;
+	background: white;
+	border-radius: 15px;
+	border: none;	
+	margin: 10px;
+	align-self: center;
+	color: rgb(105, 105, 105);
+	width: 350px;
+	height: 33px;
+	-webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+	box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+}
+
+#googleBtn:hover{
+	transform: scale(1.03);
+}
+
+#githubBtn {
+	transition: .5s ease;
+	color: white;
+	border-radius: 15px;
+	border: #333333;
+	margin: 10px 5px 0 10px;
+	align-self: center;
+	margin: 10px;	
+	background: #333333;
+	width: 350px;
+	height: 33px;
+	-webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+	box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+}
+
+#githubBtn:hover{
+	transform: scale(1.03);
+}
+
+
+
+.registro {
+	padding: 40px;
+	color: white;
+	align-self: center;
+	
+	
+}
+
+a {
+	color: #EF781E;
+	text-decoration: none;
+}

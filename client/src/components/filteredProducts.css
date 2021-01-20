@@ -1,0 +1,4 @@
+.filteredProducts {
+    background: rgb(65,65,92);
+    background: radial-gradient(circle, rgba(65,65,92,1) 0%, rgba(29,29,46,1) 100%);
+}

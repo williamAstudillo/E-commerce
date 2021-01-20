@@ -1,0 +1,21 @@
+.flexThis {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.catalogTitle {
+    font-family: 'Roboto';
+    font-size: 1.618rem;
+}
+.pagination{
+    margin: 50px 0px 20px 30px;
+}
+.pageNumbers {
+    padding: 0px auto;
+    color: #EC603A;
+    border: 1px solid #EC603A;
+    margin: 0px 2px;
+    
+    height: 30px;
+    width: 30px;
+}

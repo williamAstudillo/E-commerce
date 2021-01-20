@@ -1,0 +1,15 @@
+
+.freeDelivery p {
+    font-family: 'Roboto';
+    font-size: 0.618rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    padding: auto;
+    padding-top: 8px;
+}
+ .freeDelivery {
+     height: 35px;
+     background: rgb(65,65,92);
+     background: radial-gradient(circle, rgba(65,65,92,1) 0%, rgba(29,29,46,1) 100%);
+ }

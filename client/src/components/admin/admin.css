@@ -1,0 +1,27 @@
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	height: 91vh;
+}
+
+.navigation {
+	width: 100%;
+	max-width: 16%;
+	background: rgb(65,65,92);
+background: radial-gradient(circle, rgba(65,65,92,1) 0%, rgba(29,29,46,1) 100%);
+	text-align: right;
+}
+
+.navigation button {
+	background: rgb(65,65,92);
+background: radial-gradient(circle, rgba(65,65,92,1) 0%, rgba(29,29,46,1) 100%);
+	border: 1px solid orange;
+	/* width: 60%; */
+	text-align: right;
+}
+
+.navigation button:hover {
+	background-color: white;
+	border: 1px solid white;
+	color: orange;
+}

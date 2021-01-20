@@ -1,0 +1,71 @@
+/* div span i {
+	color: #f8e825;
+} */
+.imageContainer {
+	width: 100%;
+}
+
+.imagen {
+	width: auto;
+	max-height: 400px;
+}
+
+.productNameReview {
+	font-family: 'Roboto';
+	font-size: 2.618rem;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.ratingTitle {
+	font-family: 'Roboto';
+	font-size: 1.618rem;
+}
+
+.textAreaReview {
+	font-family: 'Roboto';
+	font-size: 1rem;
+}
+
+.rating {
+	display: flex;
+	margin: 40px auto;
+	align-items: start;
+	color: #ddd; /* Personal choice */
+	width: 20rem;
+	direction: rtl;
+}
+.rating input {
+	display: none;
+}
+
+.createReview {
+	font-family: 'Roboto';
+
+    background-color:  #1D1D2E;
+    color: white;
+    width: 100%;
+    transition: background-color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+    border: none;
+    align-self: center;
+    height: auto;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px ;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+
+.createReview:hover {
+	background-color: #ec603a;
+	color: black;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked + label,
+.rating input:checked + label ~ label {
+	color: #ffc107; /* Personal color choice. Lifted from Bootstrap 4 */
+}

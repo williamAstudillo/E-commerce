@@ -1,0 +1,17 @@
+.displayedCatTitle {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 300;
+    color:white;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #1d1d2e;
+    background: rgb(65,65,92);
+    background: radial-gradient(circle, rgba(65,65,92,1) 0%, rgba(29,29,46,1) 100%);
+    transition: color 0.2s ease;
+}
+.displayedCatTitle:hover {
+    background-color: #fb7e00;
+    color:   #fb7e00;
+    text-decoration: none;
+}

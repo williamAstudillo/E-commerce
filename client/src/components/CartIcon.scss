@@ -1,0 +1,46 @@
+.cart-icon {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  
+    .shopping-icon {
+      width: 24px;
+      height: 24px;
+    }
+  
+    .item-count {
+      font-family: 'Roboto';
+      font-size: 0.618rem;
+      position: absolute;
+      font-weight: 400;
+      bottom: 12px;
+    }
+  }
+.activeCart {
+    color: #EC603A;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  
+    .shopping-icon {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .item-count {
+      position: absolute;
+      font-family: 'Roboto';
+      font-size: 1rem;
+      font-weight: 800;
+      bottom: 5.5px;
+    }
+  }
+  

@@ -1,0 +1,102 @@
+.checkoutComponentContainer {
+	opacity: 1;
+	width: 100%;
+	overflow: hidden;
+	animation: fadein 1s;
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(181,181,181,0.5293827003457633) 100%);
+}
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+  }
+
+.blankSpace{
+height: 6rem;
+}
+
+.checkout-page {
+	width: 66%;
+	min-height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px auto 50px auto;
+	
+	
+	.checkout-header {
+		width: 100%;
+		font-family: 'Roboto';
+		font-size: 1rem;
+		font-weight: 100;
+		text-align: left;
+		padding: 1% 0px 0px 15%;
+		display: flex;
+		justify-content: space-between;
+		background: rgb(65,65,92);
+		background: radial-gradient(circle, rgba(65,65,92,1) 0%, rgba(29,29,46,1) 100%);
+		color:#f8f2f0;
+		
+		.header-block {
+			
+			font-family: 'Roboto';
+			font-size: 1rem;
+			text-transform: capitalize;
+			width: 25%;
+			margin: 20;
+
+			&:last-child {
+				width: 8%;
+			}
+		}
+	}
+
+	.totalTitle {
+		margin-top: 30px;
+		margin-left: auto;
+		font-family: 'Roboto';
+		font-size: 2.618rem;
+		font-family: 'Roboto';
+		font-weight: 400;
+	}
+	
+	.totalValue {
+	
+		margin-left: auto;
+		font-family: 'Roboto';
+		font-size: 4.236rem;
+		font-family: 'Roboto';
+		font-weight: 400;
+		margin-bottom: 25px;
+	}
+
+#createOrder {
+	
+    font-family: 'Roboto';
+	background: rgb(65,65,92);
+    background: radial-gradient(circle, rgba(65,65,92,1) 0%, rgba(29,29,46,1) 100%);
+    color: white;
+    width: 100%;
+    
+    transition: color 0.5s ease-in-out;
+    border: none;
+    align-self: center;
+    height: auto;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px ;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#createOrder:hover {   
+	
+    color: #EC603A;
+}
+
+	/* .checkoutRowContainer {
+		height: 150px;
+		background-color: black;
+	} */
+}

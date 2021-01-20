@@ -1,0 +1,21 @@
+.categoriesBar {
+    background-color: #1D1D2E;    
+}
+#allProductsContainer {
+    background-color: #1D1D2E;
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+  }
+
+.catalogContainer {
+    background-color: white;
+    border-radius: 0px 0px 0px 25px;
+}
+.catalogTitle {
+    padding: 1rem;
+    text-align: left;
+}

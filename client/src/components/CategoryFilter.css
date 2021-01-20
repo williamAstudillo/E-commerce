@@ -1,0 +1,15 @@
+.catShop {
+    
+    padding: 20px auto;
+}
+.categoryTitle {
+    padding-top: 4.5rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 1rem;
+}
+.categoryFilterBar {
+
+}

@@ -1,0 +1,77 @@
+.containerSignUp {
+    background-image: url('./images/backSignUp.jpg');
+    height: auto;
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+  }
+
+.blankSpace {
+    height: 2rem;
+}
+
+.containerFormSignUp {
+    margin: 0px auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #1d1d2ece;
+    border-radius: 10px;
+}
+
+.labelSignUp {
+  
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 300;
+    width: 50%;
+    text-align: center;
+    margin-right: 5px;
+    color: white;
+    margin: 5px auto;
+}
+
+.inputSignUp {
+    border-radius: 15px;
+    padding-left: 15px;
+    width: 350px;
+ 	background: rgba(255,255,255,0.07);
+	border: none;	
+	align-self: center;
+	height: 35px;
+	color: white;
+	-webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+	box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+}
+
+.getRegistered{
+    font-family: 'Roboto';
+    font-size: 2.618rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#signUp {
+    background: #EF781E;
+	border-radius: 4px;
+	border: none;
+	margin: 40px auto 40px auto;
+	align-self: center;
+	padding: 0 auto;
+	color: white;
+	width: 350px;
+	height: 33px;
+	-webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    transition: .5s ease;
+}
+
+#signUp:hover {
+    transform: scale(1.03);
+}
