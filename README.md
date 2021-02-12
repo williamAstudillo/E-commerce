@@ -19,3 +19,5 @@ Petectives es un E-commerce  donde podras encontrar todos los productos que nece
 ![](/assets/e-commerce.png)
 ![](/assets/ecommerce1.png)
 ![](/assets/ecommerce2.png)
+![](/assets/ecommerce3.png)
+![](/assets/ecommerce4.png)
