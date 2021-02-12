@@ -18,6 +18,6 @@ La aplicación de la carperta `api` ya estara corriendo http://localhost:3000 as
 Petectives es un E-commerce  donde podras encontrar todos los productos que necesites para tu mascota , en él podras ver productos listados , filtrar por categorias , crear una cuenta de usuario , hacer pagos con mercado pago , como administrador podras listar nuevas productos , obterner información de compras.
 ![](/assets/e-commerce.png)
 ![](/assets/ecommerce1.png)
-![](/assets/ecommerce3.png)
+![](/assets/ecommerce4.png)
 
 
