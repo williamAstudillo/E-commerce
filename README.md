@@ -19,5 +19,6 @@ Petectives es un E-commerce  donde podras encontrar todos los productos que nece
 ![](/assets/ecommerce2.png)
 ![](/assets/ecommerce3.png)
 ![](/assets/ecommerce4.png)
+Te invito  a que miremes el video del proyecto en el siguiente enlace [E-commerce](https://vimeo.com/502778874)
 
 
